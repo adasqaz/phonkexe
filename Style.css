@@ -1,13 +1,33 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
 .Click {
     display: block;
     width: 100;
     height: 50;
 
     border: 0;
-    margin: 10px;
+    padding: 10px;
+    background-color: blueviolet;
+    outline: 0px rgba(0, 0, 255, 0.377) solid;
+    transition: all 0.1s linear;
+
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+}
+.Click:hover {
+    background-color: rgb(96, 31, 156);
+    outline: 4px rgba(0, 0, 255, 0.377) solid;
+    color: white;
 }
 #Phonk {
     display: none;
+    width: 80%;
+    height: 80%;
     object-fit: contain;
 }
 main {
@@ -15,7 +35,7 @@ main {
     height: 100%;
 
     display: flex;
+    justify-content: center;
     align-items: center;
-    align-content: center;
     background-color: gray;
 }
