@@ -4,21 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Phonk</title>
-    <style>
-      .Click {
-        display: block;
-        width: 100;
-        height: 50;
-      }
-      #Phonk {
-        display: none;
-      }
-    </style>
+    <link rel="stylesheet" href="Style.css">
   </head>
   <body>
-        <img src="icon.png" alt="I Love Phonk" id="Phonk">
-
+    <main>
+        <img src="./icon.png" alt="I Love Phonk" id="Phonk">
         <button onclick="Click()" id="Click" class="Click">CLICK FOR FREE ROBUX</button>
+    </main>
+
 
         <script>
           function Click() {
@@ -28,7 +21,7 @@
             const Button = document.getElementById("Click");
             Button.style.display = "none";
 
-            const fart = new Audio('fart.mp3');
+            const fart = new Audio("./fart.mp3");
             for (let i = 1; i < 10; i++) {
               fart.play();
             }

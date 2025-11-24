@@ -1,0 +1,19 @@
+.Click {
+    display: block;
+    width: 100;
+    height: 50;
+
+    border: 0;
+    margin: 10px;
+}
+#Phonk {
+    display: none;
+    object-fit: contain;
+}
+main {
+    width: 100%;
+    height: 100%;
+
+    align-items: center;
+    align-content: center;
+}
