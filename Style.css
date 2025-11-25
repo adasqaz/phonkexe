@@ -23,6 +23,7 @@ html, body {
     background-color: rgb(96, 31, 156);
     outline: 4px rgba(0, 0, 255, 0.377) solid;
     color: white;
+    cursor: pointer;
 }
 #Phonk {
     display: none;
@@ -38,4 +39,5 @@ main {
     justify-content: center;
     align-items: center;
     background-color: gray;
+
 }
